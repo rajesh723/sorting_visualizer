@@ -1,0 +1,42 @@
+body{
+    background-image: url('./sorting_algo/background.avif');
+}
+
+#heading{
+    color: white;
+    /* margin-left: 572px; */
+    text-align: center;
+}
+
+
+.btn{
+    background-color: aliceblue;
+}
+
+.sort_button{
+    margin-right: 0px;
+    /* float: right; */
+    margin-left: 500px;
+}
+
+.all_button{
+    margin: 10px;
+}
+#bar{
+    display: flex;
+}
+.altitude{
+    border: 1px solid red;
+    background-color: yellow;
+}
+
+.altitude:hover{
+    background-color: yellow;
+}
+
+@media (min-width: 1200px) and (max-width: 1200px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #1C2331!important;
+    }
+}
+.view,body,html{height:100%}.navbar{background-color:rgba(0,0,0,.2)}.page-footer,.top-nav-collapse{background-color:#1C2331}@media only screen and (max-width:768px){.navbar{background-color:#1C2331}}
