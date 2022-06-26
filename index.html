@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./sorting.css">
+    <link rel="stylesheet" href="./bootstrap.css">
+    <title>Sorting Visualizer</title>
+</head>
+<body>
+    <div>
+        <h2 id="heading">Sorting Visualizer</h2>
+    </div>
+
+       <div>
+           <nav class="navbar button  navbar-expand-lg navbar-dark scrolling-navbar">
+               <div class="container">
+           
+                 <!-- Brand -->
+                 
+                  <button type="Button" class="btn navbar-brand nav-item" id="newArray" onclick="arrayGenerator(),changeColor()" >New Array</button>
+                 
+           
+                 <!-- Collapse -->
+                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                   aria-expanded="false" aria-label="Toggle navigation">
+                   <span class="navbar-toggler-icon"></span>
+                 </button>
+           
+                 <!-- Links -->
+                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
+           
+                   <!-- Right -->
+                   <ul class="navbar-nav sort_button nav-flex-icons">
+                     <li class="nav-item">
+                          <button type="Button" class="btn all_button" id="babloo" onclick="bubbleSort(),disable()">Bubble Sort</button>
+                     </li>
+                     
+                     <li class="nav-item">
+                      <button type="Button" class="btn all_button">Selection Sort</button>
+                     </li>
+      
+                     <li class="nav-item">
+                      <button type="Button" class="btn all_button">Insertion Sort</button>
+                     </li>
+      
+                     <li class="nav-item">
+                      <button type="Button" class="btn all_button">Quick Sort</button>
+                     </li>
+      
+                     <li class="nav-item">
+                  <button type="Button" class="btn all_button">Merge Sort</button>
+                      </li>
+                  
+                   </ul>
+           
+                 </div>
+           
+               </div>
+             </nav>
+       </div>
+           
+    <div class="container" id="bar">
+        
+    </div>
+     
+    
+<script src="./sorting_algo/sorting.js"></script>
+<script src="./sorting_algo/bubble_sort.js"></script>
+</body>
+</html>
